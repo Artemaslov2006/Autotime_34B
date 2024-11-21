@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.wrapper{
+    background: url(/assets/image/механик.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    position: relative;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    padding: 50px 0;
+}
+header span img{
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+}
+header nav{
+    float: right;
+    width: 50%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color: #fff;
+}
+header nav ul li a:hover{
+    border-bottom: 3px solid #1E80CF;
+}
+.hero{
+    padding-bottom: 100px;
+    position: relative;
+}
+.hero-info{
+    width: 530px;
+    padding-top: 70px;
+}
+.hero-info h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.hero-info .btn{
+    background: #1E80CF;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 18px;
+}
+.hero-info .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.wrapper2{
+    background: #0B0E17;
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+.o_nas{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.o_nas h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+.o_nas .history img{
+    width: 350px;
+    height: 250px;
+}
+.o_nas .text h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    text-align:justify
+}
+.col-md-3 h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 30px;
+}
+.col-md-4{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; 
+    margin-bottom: 10px;
+}
+.col-md-5{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 40px; 
+    margin-bottom: 10px;
+}
+.product{
+    width: 200px;
+    height: 300px;
+    background: #14285F;
+    margin-left: 30px;
+}
+
+.image{
+    margin-bottom: 10px;
+}
+.image img{
+    object-fit: cover;
+    border-radius: 7px;
+}
+.info-card h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.info-card1 h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center; 
+}
+.info-price{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.price{
+    color: #fff;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.add-to-card p{
+    color: #fff;
+}
+.add-to-card{
+    border: 0;
+    width: 100px;
+    height: 40px;
+    background: #1E80CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.add-to-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.spech-akchia{
+    background: url(/assets/image/orig.png) no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.spech-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.spech-container h2{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.spech-akchia .spech-btn{
+    background: #1E80CF;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.spech-akchia .spech-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.form{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+}
+.form .container2{
+    display: flex;
+    flex-direction: column;
+}
+.form .container2 .join{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+.form .container2 .call{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    word-spacing: 10px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+.form .container2 .mb-3{
+    margin-bottom: 20px;
+}
+.form .container2 label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.form .container2 input{
+    height: 40px;
+    border: 1px solid #1E80CF;
+    display: flex;
+    justify-content: center;
+}
+.form .container2 .Get{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    padding-left: 10px;
+    width: 180px;
+    height: 52px;
+    border: none;
+    background-color: #1E80CF;
+    transition: .5s;
+    border: 1px solid #1E80CF;
+    margin-bottom: 100px;
+}
+.form .container2 .Get:hover{
+    background-color: white;
+    color: #1E80CF;
+    transition: .3s;
+    border: 1px solid black;
+}
+.footer{
+    background-color: #151C21;
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.footer .container{
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .block1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.footer .container .block1 .logo{
+    width: 300px;
+    height: 142px;
+    background: url(/assets/image/лого_автосервис.png) no-repeat;
+    background-size: cover;
+}
+.footer .container .block1 .number{
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .block1 .email{
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .block1 .office{
+    display: flex;
+    flex-direction: column;
+}
+.footer .container .block1 .num{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer .container .block1 .phone{
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer .container .line{
+    width: 100%;
+    height: 2px;
+    background-color: #666666;
+}
+.footer .container .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer .container .copy{
+    font-weight: 400;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.footer .container .pri{
+    font-weight: 300;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.footer .container .info .icon{
+    display: flex;
+}
+.footer .container .info .icon a{
+    margin-right: 10px;
+}
+.footer .container .info .icon a{
+    margin-left: 10px;
+}
+@media(max-width:480px){
+    .container{
+        width: 300px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    
+}
