@@ -17,7 +17,7 @@ img{
     max-width: 100%;
 }
 .wrapper{
-    background: url(/assets/image/механик.jpg) no-repeat;
+    background: url(../image/механик.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -204,7 +204,7 @@ header nav ul li a:hover{
     transform: scale(1.1);
 }
 .spech-akchia{
-    background: url(/assets/image/orig.png) no-repeat;
+    background: url(../image/orig.png) no-repeat;
     background-size: cover;
     background-position: center;  
 }
@@ -325,7 +325,7 @@ header nav ul li a:hover{
 .footer .container .block1 .logo{
     width: 300px;
     height: 142px;
-    background: url(/assets/image/лого_автосервис.png) no-repeat;
+    background: url(../image/лого_автосервис.png) no-repeat;
     background-size: cover;
 }
 .footer .container .block1 .number{
